@@ -98,7 +98,7 @@ try:
 
 Node-RED를 설치하는 방법은 여러 가지가 있습니다. 여기서는 npm을 이용한 설치 방법을 소개합니다.
 
-Node.js 및 npm 설치: Node-RED는 Node.js 기반으로 동작합니다. Node.js와 npm이 설치되어 있지 않다면, 공식 웹사이트에서 다운로드하여 설치합니다. (https://nodejs.org/)
+Node.js 및 npm 설치: Node-RED는 Node.js 기반으로 동작합니다.
 
 Node-RED 설치: 터미널에서 다음 명령어를 실행하여 Node-RED를 설치합니다.
 
@@ -110,7 +110,6 @@ npm install -g --unsafe-perm node-red
 
 Node-RED 실행: 터미널에서 node-red 명령어를 실행합니다.
 
-웹 브라우저 접속: 웹 브라우저에서 http://localhost:1880 에 접속하여 Node-RED 에디터를 실행합니다.
 
 2. Node-RED 플로우 작성
 
@@ -120,8 +119,6 @@ inject 노드의 출력을 serial out 노드에 연결합니다.
 serial out 노드를 더블 클릭하여 설정을 엽니다. Serial Port 에서 아두이노 보드가 연결된 포트를 선택하고 Baud Rate 를 9600으로 설정합니다.
 inject 노드를 복사하여 Payload 값을 off 로 변경합니다.
 두 개의 inject 노드를 serial out 노드에 연결합니다.
-새 창에서 열기
-flows.nodered.org
 NodeRED LED 제어 플로우
 
 3. 결과 확인
